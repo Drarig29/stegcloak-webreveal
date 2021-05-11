@@ -1,0 +1,19 @@
+{
+  "name": "stegcloak-webreveal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "browserify index.js -o reveal.js -t [ babelify --presets [ @babel/preset-es2015 ]"
+  },
+  "author": "Corentin Girard",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-es2015": "^7.0.0-beta.53",
+    "babelify": "^10.0.0",
+    "browserify": "^17.0.0"
+  },
+  "dependencies": {
+    "stegcloak": "^1.1.1"
+  }
+}
